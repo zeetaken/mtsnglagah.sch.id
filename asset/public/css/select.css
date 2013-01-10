@@ -1,0 +1,88 @@
+select{
+	padding:5px;
+	max-height:200px;
+	background: #FFFFFF left top repeat-x;
+	background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+	background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	border: solid 1px #80BED6;
+}
+.error{
+	border: 1px solid #ED1C24;
+	color: #ED1C24;	
+}
+
+.t-tip,.status{
+	margin-left:10px;
+	position:absolute;
+    white-space: nowrap;
+
+    padding: .2em .4em;
+    z-index:9999;
+
+    border: 1px solid #00ADEE;
+    color: #333333;
+    background: white;    
+
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px; 
+    border-radius: 4px; 
+
+    -o-box-shadow: 0 0 5px #aaa;
+	-moz-box-shadow: 0 0 5px #aaa;
+	-webkit-box-shadow: 0 0 5px #aaa;
+	box-shadow: 0 0 5px #aaa;
+}
+.status{
+	position: fixed
+}
+input.txt, textarea.txt,.txt{
+	padding: 7px;
+	border: solid 1px #80BED6;
+	outline: 0;
+	font: normal 13px/100% Verdana, Tahoma, sans-serif;
+	
+	background: #FFFFFF left top repeat-x;
+	background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+	background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	}
+	
+input.txt:hover,input.txt:focus, 
+textarea.txt:hover,textarea.txt:focus	{
+	border-color:#00ADEE; 
+	-webkit-box-shadow: rgba(0, 0.3, 0.3, 0.15) 2px 2px 8px;
+	}
+.txt-eror{
+	padding: 9px;
+	border: solid 1px #FF0000;
+	outline: 0;
+	font: normal 13px/100% Verdana, Tahoma, sans-serif;
+	
+	background: #FFFFFF left top repeat-x;
+	background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+	background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+}
+.styledselect_form_1	{
+	background: url(../../admin/images/forms/form_select.gif) left no-repeat;
+	border: none;
+	border-left: none;
+	color: #393939;
+	cursor: pointer;
+	display: block;
+	font-family: Arial;
+	font-size: 12px;
+	height: 24px;
+	margin: 0px 0px 0px 0px;
+	padding: 7px 0 0 6px;
+	text-align: left;
+	width: 192px;
+	}
+

@@ -1,0 +1,33 @@
+.profil-box {
+	width: 150px;
+	height: 200px;
+	border: solid 1px #666666;
+	background:#F2F2F2;
+	position: absolute;
+}
+
+.right-profil{
+	margin-left: 300px;
+}
+.struk-box{
+	width: 550px;
+	height: 200px;
+	border: solid 1px #666666;
+	background:#F2F2F2;
+	position: inherit;
+}
+.tombol-foto{
+	margin:50px;	
+}
+.tabel-akademik{
+	width: 80%;
+	margin:5px;
+}
+.tabel-akademik tr{
+	margin:5px;
+	padding:5px;
+}
+.tabel-akademik tr td{
+	margin:5px;
+	padding:5px;
+}

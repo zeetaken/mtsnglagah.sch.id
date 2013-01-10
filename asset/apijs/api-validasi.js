@@ -1,0 +1,6 @@
+/**
+ * @author Novan
+ */
+$(function(){
+	
+});

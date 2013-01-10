@@ -1,0 +1,86 @@
+@import url(tombol.css);
+@import url(tbl.css);
+@import url(select.css);
+@import url(soal.css);
+@import url(pendaftaran.css);
+@import url(jquery.jqChart.css);
+@import url(jqScroll.css);
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block}
+mark, rp, rt, ruby, summary, time {display:inline}
+/* Left & Right alignment */
+.left {float:left}
+.right {float:right}
+.wrapper {width:100%;overflow:hidden}
+/* Global properties */
+body {background:#f2f2f2;border:0;font:14px Tahoma, Geneva, sans-serif;color:#4c4c4c;line-height:20px;padding-bottom:20px;min-width:980px}
+.ic, .ic a {border:0;float:right;background:#fff;color:#f00;width:50%;line-height:10px;font-size:10px;margin:-220% 0 0 0;overflow:hidden;padding:0}
+.css3 {border-radius:8px;-moz-border-radius:8px;-webkit-border-radius:8px;box-shadow:0 0 4px rgba(0, 0, 0, .4);-moz-box-shadow:0 0 4px rgba(0, 0, 0, .4);-webkit-box-shadow:0 0 4px rgba(0, 0, 0, .4);position:relative}
+/* Global Structure */
+.main {margin:0 20px 0 20px;min-width:700px}
+.body1 {background:#212121}
+.body2 {background:#f2f2f2}
+/* main layout */
+a {color:#000;text-decoration:underline;outline:none}
+a:hover {text-decoration:none}
+h1 {padding:47px 0 0 39px}
+h2 {font-size:32px;color:#000;text-transform:uppercase;line-height:1.2em;padding:31px 0 20px 0;letter-spacing:-1px}
+h2 span {display:block;margin-top:-12px}
+h3 {font-size:27px;color:#000;line-height:1.2em;padding:14px 0 13px 0;letter-spacing:-2px}
+p {padding-bottom:20px}
+/* header */
+header {height:40px;width:100%;overflow:hidden; background: #212121; margin-bottom: 20px}
+#menu {float:left;padding:0 0 0 39px}
+#menu li {float:left;padding-right:17px;margin-right:15px}
+#menu .end {background:none}
+#menu li a {display:block;font-size:15px;color:#fff;line-height:36px;text-transform:uppercase;text-decoration:none;height:40px}
+#menu li a:hover, #menu #menu_active a {color:#44fbfe}
+#icon {float:right;padding:16px 40px 0 0}
+#icon li {float:left;padding-left:15px}
+#icons {float:right;padding:20px 39px 0 0}
+#icons li {float:left;padding-left:11px}
+/* content */
+#content {width:100%;overflow:hidden;}
+.pad1 {padding:0 34px}
+.pad_left1 {padding-left:5px}
+.pad_left2 {padding-left:42px}
+.pad_top1 {padding-top:33px}
+.pad_top2 {padding-top:7px}
+.pad_bot1 {padding-bottom:10px}
+.pad_bot2 {padding-bottom:18px}
+.marg_right1 {margin-right:21px}
+.marg_top1 {margin-top:-10px}
+.marg_left1 {margin-left:-5px}
+.font1 {text-align:center;display:block;font-size:23px;line-height:1.2em;padding:7px 0 36px 0;color:#000;letter-spacing:-1px}
+.font2 {font-size:22px;line-height:1.2em;color:#0055a2;padding:0 0 20px 0;letter-spacing:-1px;margin-top:-3px}
+.font2 span {display:block;margin-top:-6px}
+.font2 a {color:#0055a2;text-decoration:none}
+.font2 a:hover {color:#000}
+.box1 {padding:0 34px;background:#fff;padding-bottom:25px}
+
+.list1 {margin-top:-12px}
+.list1 li {line-height:40px}
+.list1 li a {display:inline-block;background:url(../images/marker_1.gif) 0 2px no-repeat;padding-left:48px;color:#363636;font-weight:bold;text-decoration:none}
+.list1 li a:hover {background-position:0 -38px;color:#0055a2}
+.list2 {margin-top:-1px}
+.list2 li {font:14px Tahoma, Geneva, sans-serif;line-height:30px}
+.list2 li a {color:#4c4c4c;text-decoration:none;padding-left:10px;background:url(../images/marker_3.gif) 0 6px no-repeat}
+.list2 li a:hover {color:#0055a2;background-position:0 -17px}
+.list3 {}
+.list3 li {line-height:30px}
+.list3 li a {color:#0055a2;background:url(../images/marker_3.gif) 0 -17px no-repeat;padding-left:10px}
+.list3 li a:hover {color:#000;background-position:0 6px}
+.date {float:left;width:72px;height:50px;background:url(../images/date.gif) 0 0 no-repeat;margin-right:14px;font-size:34px;line-height:1.2em;padding-top:22px;text-align:center}
+.link1 {text-decoration:none}
+.link1:hover {color:#0055a2}
+.quot {padding-left:42px;background:url(../images/quot.gif) 0 4px no-repeat;overflow:hidden}
+.quot span {display:block}
+.color1 {color:#0056a3}
+.color2 {color:#8f8f8f}
+/* footer */
+footer {font:12px Arial, Helvetica, sans-serif;width:100%;overflow:hidden;padding-bottom:52px;line-height:20px}
+footer a {color:#0055a2}
+footer a:hover {}
+.call {float:left;width:602px;padding:5px 0 0 0}
+.call1 {font-size:32px;color:#000;line-height:1.2em;display:inline-block;letter-spacing:-1px}
+.call2 {font-size:31px;color:#0055a2;line-height:1.2em;display:inline-block;letter-spacing:-1px}

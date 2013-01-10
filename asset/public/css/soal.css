@@ -1,0 +1,80 @@
+.panel-soal {
+	width:100%;	
+	border:1px solid #DCDADA;
+}
+/**
+ *		panel tombol soal ujian mulai di sini
+ *  	
+**/
+#panel-tbl{
+	height:50px;
+	background:#DCDADA;
+}
+#panel-tbl ul{	
+	margin-left:20px;
+	list-style: none;
+}
+#panel-tbl ul li{
+	padding:5px;
+	direction: ltr;
+	float:left;
+	line-height:30px;	
+}
+#panel-tbl li a{
+	text-decoration:none;
+}
+#panel-tbl a img{
+	margin-left:10px;
+	height:32px;
+}
+#panel-tbl a img:hover{	
+	padding-top:5px;
+}
+#halaman,#wkt,#jam{
+	padding-left:5px;
+	background:#FFFFFF;
+	height:30px;
+	width:50px;
+	border:solid 1px #8C8C8C;
+}
+/**
+ *		panel tombol soal ujian berakhir di sini
+ *  	panel soal mulai di sini
+**/
+#soal{
+	min-height:100px;
+}
+#soal,#pilihan-jwb{	
+	background:#F2F2F2;
+	padding:10px 0 20px 0;
+}
+#soal a,#pilihan-jwb a, 
+#soal p,#pilihan-jwb p{
+	
+	margin:5px;
+	line-height:normal;	
+	font-size:12px;
+	color:#000000;
+	float:none;
+	display: inline;
+}
+
+
+/**
+ *		panel identitas mulai di sini
+ * 		 	
+**/
+#identitas{
+	height:100px;
+	background:#DCDADA;
+}
+#identitas input,#identitas label{
+	margin:5px;
+}
+/**
+ * 	util
+ */
+#loading-form{
+	background:url(../images/loading.gif) no-repeat;
+	height: 20px;
+}
